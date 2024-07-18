@@ -5,7 +5,7 @@ script to install nextcloud 24 on android (firetv cube/stick, nvidia shield, pho
 - install termux:boot from https://f-droid.org/en/packages/com.termux.boot/ and run it once
 - open termux and paste following code start:
 
-`termux-setup-storage; pkg update -o Dpkg::Options::='--force-confold' --force-yes -fuy; pkg install wget -y; wget -O - https://github.com/BenjaminWegener/nextcloud_on_android/raw/main/install.sh | bash;`
+`termux-setup-storage; pkg update -o Dpkg::Options::='--force-confold' --force-yes -fuy; pkg install wget -y; wget -O - https://github.com/buskmann/nextcloud_on_android/raw/main/install.sh | bash;`
 
 finally open a browser and navigate to http://localhost:8080/ to finish the setup. 
 essentially this will install a termux instance, that runs on boot and prevents deep sleep of your device.
